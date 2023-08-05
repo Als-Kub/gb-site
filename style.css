@@ -729,21 +729,9 @@ body {
 
     .bottom_text {
         margin-bottom: 0;
-        width: 251px;
+        width: 253px;
         margin-left: 0;
     }
-
-    /* .features {
-        background-color: #222224;
-        padding: 103px 14%;
-        display: flex;
-        justify-content: center;
-        gap: 1.9%;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-content: center;
-        padding: 48px 14% 64px;
-    } */
 
     .features {
         display: block;
@@ -787,6 +775,10 @@ body {
 
     .subscribeRight__subtitle {
         font-size: 14px;
+    }
+
+    .hide {
+        display: none;
     }
 
 }
