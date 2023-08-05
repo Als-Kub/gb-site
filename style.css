@@ -320,6 +320,7 @@ body {
     border: 1px solid #FF6A6A;
     margin-left: calc(50% - 111px);
     margin-right: calc(50% - 111px);
+    min-width: 140px;
 }
 
 .products {
@@ -498,6 +499,9 @@ body {
     opacity: 0.67;
 }
 
+.subscribe__button:hover {
+    transform: scale(1.1);
+}
 
 .bottom {
     height: 79px;
@@ -640,7 +644,7 @@ body {
 
     .bottom_text {
         margin-left: 0;
-        width: 251px;
+        width: 270px;
     }
 
 }
@@ -725,11 +729,14 @@ body {
         padding-top: 43px;
         padding-bottom: 9px;
         justify-content: space-between;
+        gap: 0;
+        padding-left: 3%;
+        padding-right: 3%;
     }
 
     .bottom_text {
         margin-bottom: 0;
-        width: 260px;
+        width: 270px;
         margin-left: 0;
     }
 
